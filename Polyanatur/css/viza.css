@@ -1,0 +1,44 @@
+.visa {
+max-width: 1100px;
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.strany {
+display: flex;
+justify-content: center;
+font-family: 'Ubuntu', sans-serif; 
+margin-top: 20px
+}
+
+
+.poland {
+flex-basis: 550px;
+text-align: center
+}
+
+
+.litva {
+flex-basis: 550px;
+text-align: center
+}
+
+li {
+list-style-type: none;
+text-align: left
+}
+
+
+h3
+{
+    background-color: white;
+    color: green;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+h3:hover
+{
+    background-color: green;
+    color: white;
+}

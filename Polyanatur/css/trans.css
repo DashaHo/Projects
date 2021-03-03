@@ -1,0 +1,27 @@
+.transfer {
+max-width: 1100px;
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.avtopark {
+text-align: center;
+margin-top: 30px
+}
+
+
+
+@media screen and (max-width:1125px) {
+.avtopark img {
+width: 450px;
+height: 350px
+}
+}
+
+@media screen and (max-width:925px) {
+.avtopark img {
+width: 350px;
+height: 300px
+}
+
+}

@@ -1,0 +1,45 @@
+.info {
+max-width: 1100px;
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+}
+.sotrudniki {
+display: flex;
+justify-content: center;
+font-family: 'Ubuntu', sans-serif; 
+margin-top: 20px
+}
+
+.sotrudniki1 {
+display: none
+}
+
+.image1 {
+flex-basis: 350px;
+text-align: center;
+}
+
+.image2 {
+flex-basis: 350px;
+text-align: center;
+}
+
+.image3 {
+flex-basis: 350px;
+text-align: center;
+}
+
+img {
+border-radius: 20px
+}
+
+@media screen and (max-width:800px) {
+.sotrudniki {
+display: none
+}
+
+.sotrudniki1 {
+display: inline
+}
+
+}

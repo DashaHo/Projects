@@ -1,0 +1,37 @@
+.info {
+max-width: 1100px;
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+}
+.carta {
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.carta1 {
+display: none
+}
+
+@media screen and (max-width:1125px) {
+
+.carta {
+display: none
+}
+
+.carta1 {
+display: inline;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+.carta {
+display: none
+}
+
+}
